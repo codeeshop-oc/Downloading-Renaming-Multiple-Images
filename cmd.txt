@@ -1,0 +1,9 @@
+### Open Terminal from the same directory where the images.txt file is or add the same path in the command
+### ( For Linux Users Short Command would be CTRL + ALT + T )
+### Run the below command and hit enter
+
+### For Terminal Open at Same Path as file
+wget -i images.txt
+
+### For Terminal Open at Different Path as file
+wget -i {ADD_YOUR_PATH}images.txt

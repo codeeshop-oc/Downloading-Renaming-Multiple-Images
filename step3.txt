@@ -1,0 +1,8 @@
+### Now it's time to wrap this up with renaming the files as we wanted
+### Here x is the iterating variable and if you want to have a custom name added to every image then you can surely made adjustment to the code
+
+## without custom name
+$((x = 0)); for j in *.jpg; do mv -- "$j" "$((++x)).jpg"; done
+
+## with custom name
+$((x = 0)); for j in *.jpg; do mv -- "$j" "{ADD_CUSTOM_NAME_BEFORE}$((++x)){ADD_CUSTOM_NAME_AFTER}.jpg"; done
